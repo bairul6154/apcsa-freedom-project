@@ -11,12 +11,14 @@ tetrahedra, and t-shape. I used a javascript library called p5js which is mostly
 to improve clarity and as well as changing it into a simulator instead.
 
 ## Links
+Prototype
+[here](https://bairul6154.github.io/ChemProject/)
 
 Product
 
 Presentation
 
-## Implicationshj
+## Implications
 Text
 
 ---
