@@ -1,11 +1,14 @@
 # APCSA Freedom Project
-by Your Name Here
+by Bairu Li
 
 ## Context
-Text
+Freedom Project is just as the name sounds. Each APCSA student will choose a topic that they are going to create through a form of programming.
+Either working individually or with a partner, they will document their steps and processes in these blog entries.
 
 ## Content
-Text
+My project is going to be about bonding shapes. For my final project in AP Chemistry, I made a game revolving around bond geometries; for example, trigonal planar,
+tetrahedra, and t-shape. I used a javascript library called p5js which is mostly designed for 2D. To improve on my bonding game, I will use a 3D engine
+to improve clarity and as well as changing it into a simulator instead.
 
 ## Links
 
@@ -13,7 +16,7 @@ Product
 
 Presentation
 
-## Implications
+## Implicationshj
 Text
 
 ---
