@@ -38,6 +38,7 @@ Some basic shapes inside the `createScene` function; basically everything you wa
 
 ---
 # Skills
+
 By breaking down code to understand them, I was able to work on my **problem solving** skills. Staring at a big chunk of code is like confronting the final boss in a dungean.
 However, by chipping away at the code one piece at a time, I am able to understand the code faster and better.
 ---
