@@ -31,9 +31,9 @@ Some basic shapes inside the `createScene` function; basically everything you wa
    ```javascript
    var boxName = BABYLON.MeshBuilder.CreateBox("boxName", {width: 2, height, 3, depth: 2}, scene);
    ```
-* Generates a sphere or any other ellipsoid. Similar to `ellipse()` in **p5js**
+* Generates a sphere or any other ellipsoid. Similar to `ellipse();` in **p5js**
    ```javascript
-   var sphereName = BABYLON.MeshBuilder.CreateSphere("sphereName", {diameter: 1.25, arc:0.85}, scene);
+   var sphereName = BABYLON.MeshBuilder.CreateSphere("sphereName", {diameter: 1.25}, scene);
    ```
 
 ---
