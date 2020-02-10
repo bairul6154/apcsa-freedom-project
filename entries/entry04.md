@@ -7,18 +7,20 @@ I have finally figured out how to create animations and a bit of interactivity u
 ---
 # Engineering Design Process
 I am still **researching** and **brainstorming** how to use Babylon to create my product. However, I don't want to take too long in the researching
-and learning process because surely there is no way I can learn everything about Babylon with limited time. I am learning what
+and learning process because surely there is no way I can learn everything about Babylon with the limited time. I am learning what
 I needed to use in my product to save time. Those include interactivity and animations which I learned in the past weeks.
 
-### Animation
-A quick vocabs:
 
-A ***Mesh*** is used as the NAME of a SHAPE that is computer generated in 3D space<br>
-***Mesh Property*** is what defines a mesh. Possible proprties include:
+Quick vocabs:
+
+A ***Mesh*** is used as the NAME of a SHAPE that is computer generated in 3D space.<br>
+A ***Mesh Property*** is what defines a mesh. Possible proprties include:
 * rotation (ex. `rotation.x += 10`)
 * position (ex. `position.y -= 5`)
 * material (this is the color property.)
 
+
+### Animation
 
 The first way I learned about animation is using *key frames* just like in **CSS**.
 This is a [copy](https://jsbin.com/femiciwicu/edit?html,css,js,output) of the code below.
