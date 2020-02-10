@@ -10,7 +10,7 @@ I am still **researching** and **brainstorming** how to use Babylon to create my
 and learning process because surely there is no way I can learn everything about Babylon with limited time. I am learning what
 I needed to use in my product to save time. Those include interactivity and animations which I learned in the past weeks.
 
-#### Animation
+### Animation
 A quick vocabs:
 
 A ***Mesh*** is used as the NAME of a SHAPE that is computer generated in 3D space<br>
@@ -49,7 +49,7 @@ create animations. In this [example](https://www.babylonjs-playground.com/#J19GY
 donut ring - if you scroll all the way to the bottom - were created in a way without the key frames.
 
 
-#### Interactivity
+### Interactivity
 There are numerous ways to add interactivity. The most simplest way to create something called *Actions*. There are two steps
 to actions: 1, create a action for a mesh. 2, create a registerAction which is the TYPE of action, HOW will the action be
 triggered, and WHAT will happen to the mesh.
