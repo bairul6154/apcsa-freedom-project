@@ -14,15 +14,15 @@ I needed to use in my product to save time. Those include interactivity and anim
 Quick vocabs:
 
 A ***Mesh*** is used as the NAME of a SHAPE that is computer generated in 3D space.<br>
-A ***Mesh Property*** is what defines a mesh. Possible proprties include:
+A ***Mesh Property*** is what defines a mesh. Possible properties include:
 * rotation (ex. `rotation.x += 10`)
 * position (ex. `position.y -= 5`)
-* material (this is the color property.)
+* material (this is the color property)
 
 
 ### Animation
 
-The first way I learned about animation is using *key frames* just like in **CSS**.
+The first way I learned to animation is using *key frames* just like in **CSS**.
 This is a [copy](https://jsbin.com/femiciwicu/edit?html,css,js,output) of the code below.
 
 ```javascript
@@ -52,7 +52,7 @@ donut ring - if you scroll all the way to the bottom - were created in a way wit
 
 
 ### Interactivity
-There are numerous ways to add interactivity. The most simplest way to create something called *Actions*. There are two steps
+There are numerous ways to add interactivity. The most simplest way is to create something called *Actions*. There are two steps
 to actions: 1, create a action for a mesh. 2, create a registerAction which is the TYPE of action, HOW will the action be
 triggered, and WHAT will happen to the mesh.
 ```javascript
@@ -62,8 +62,8 @@ mesh.actionManager = new BABYLON.ActionManager(scene);
 //Parameters for{trigger, target, propertyPath, value}
 mesh.actionManager.registerAction(new BABYLON.SetValueAction(BABYLON.ActionManager.OnPointerOverTrigger
     , box, "scaling", new BABYLON.Vector3(2,2,2)));
-//                                                                                  ^over the mesh
-//                                                                                  v not over the mesh
+//                                                                                  ^ OVER the mesh
+//                                                                                  v NOT over the mesh
 mesh.actionManager.registerAction(new BABYLON.SetValueAction(BABYLON.ActionManager.OnPointerOutTrigger,
     box, "scaling", new BABYLON.Vector3(1,1,1)));
 ```
@@ -76,8 +76,8 @@ box.actionManager = new BABYLON.ActionManager(scene);
 
 box.actionManager.registerAction(new BABYLON.InterpolateValueAction(
     BABYLON.ActionManager.OnPointerOutTrigger,box, "scaling", new BABYLON.Vector3(1, 1, 1),500));
-//                                                          this is the animation duration^
-//                                                          (ex. 1000 is 1 second)
+//                                                              500 is the animation duration^
+//                                                              (ex. 1000 is 1 second)
 box.actionManager.registerAction(new BABYLON.InterpolateValueAction(
     BABYLON.ActionManager.OnPointerOverTrigger, box, "scaling", new BABYLON.Vector3(2, 2, 2),500));
 ```
@@ -94,7 +94,7 @@ objects to help me understand better.
 
 ---
 # Knowledge
-I noticed that there are a lot of `new` which is a instantiation like **Java** which we are learning in school. As a result,
+I noticed that there are a lot of `new` which is a instantiation like in **Java** which we are learning in school. As a result,
 I am able to understand what's going on behind the scene of Babylon.
 
 [Previous](entry03.md) | [Next](entry05.md)
