@@ -48,7 +48,7 @@ scene.beginAnimation(mesh, 0, 100, true); //starting the animation
 
 More on what each parameter does on the [tutorial](https://doc.babylonjs.com/babylon101/animations). There are many other ways to
 create animations. In this [example](https://www.babylonjs-playground.com/#J19GYK#0) that the tutorial gave us, the animation for the
-donut ring - if you scroll all the way to the bottom - were created in a way with `registerBeforeRender`(I included a example below).
+donut ring - if you scroll all the way to the bottom - were created in a way with `registerBeforeRender`(I included a example below in the `Execute Action`).
 
 
 ### Interactivity
