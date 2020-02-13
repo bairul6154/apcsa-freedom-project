@@ -48,7 +48,7 @@ scene.beginAnimation(mesh, 0, 100, true); //starting the animation
 
 More on what each parameter does on the [tutorial](https://doc.babylonjs.com/babylon101/animations). There are many other ways to
 create animations. In this [example](https://www.babylonjs-playground.com/#J19GYK#0) that the tutorial gave us, the animation for the
-donut ring - if you scroll all the way to the bottom - were created in a way without the key frames.
+donut ring - if you scroll all the way to the bottom - were created in a way with `registerBeforeRender`(I included a example below).
 
 
 ### Interactivity
@@ -82,6 +82,18 @@ box.actionManager.registerAction(new BABYLON.InterpolateValueAction(
     BABYLON.ActionManager.OnPointerOverTrigger, box, "scaling", new BABYLON.Vector3(2, 2, 2),500));
 ```
 [See](https://jsbin.com/dumavefuma/edit?html,css,js,output) the difference between just setting the values to interpolating the values
+
+I also learned how to use `ExecuteCodeAction` which I think can be used in my product
+
+```javascript
+var x = 0;
+box.actionManager.registerAction(new BABYLON.ExecuteCodeAction(BABYLON.ActionManager.OnPickTrigger,
+function(){
+    x+=1;
+}));
+```
+This makes it so that once you click on the box, it will execute the code inside `function` which adds 1 to x
+The vaiable x can be used elsewhere including [moving the box](https://jsbin.com/faqajumoti/edit?html,css,js,output).
 
 I plan on using these animation and actions to create a 3D molecule model that users can click or hover on.
 
