@@ -11,7 +11,7 @@ I realized that I won't be able to remake it into a game with the time I have le
 a sandbox for users to mess around with.
 
 My other idea is instead of using the keyboard to change electron geometry, I will be using the mouse to click on Graphical User Interfaces (GUI)
-and on the molecular model itself. I feel that this way will be a lot *simpler* for people to understand and use this product. When I was
+on the side of the screen, and on the molecular model itself. I feel that this way will be a lot *simpler* for people to understand and use this product. When I was
 showing off my old project during the presentation last year, I noticed that not many people understand the controls and how to play. What
 is the point of anything if nobody (except the creator) knows how to use your product. As a result, using visual controls will be a lot
 easier.
@@ -74,7 +74,7 @@ same. I have to create a mesh first, and then use that mesh as a *template* to c
 # Skills
 Over the past weeks on this project, I have been working on **consideration** and **time management**. As I have mentioned before, I want to make
 this project more easier and simpler to use than my old one. I have to think about how others would use my product and *consider* their actions
-and thinking when creating. The due date for the MVP which is on April 20. I need to create a product that is not necessarily perfect, but viable
+and thinking when creating. The due date for the MVP is on April 20. I need to create a product that is not necessarily perfect, but viable
 at that point. I have been replanning my ideas and stripping down on things that are *extra* and working towards ideas that *needs* to works first.
 
 [Previous](entry04.md) | [Next](entry06.md)
