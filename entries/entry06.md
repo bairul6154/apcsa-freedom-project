@@ -17,7 +17,7 @@ mesh1.position.subtract(mesh2.position).length();
 ```
 What this code does is take the position of the first mesh (given by their x,y,z coordinate) and subtract the position of the second mesh.
 The `.length()` at the end measures the *vector* created after subtracting the two meshes. <br>
-All in all, in simplified terms, think of this code as vector or line that connects the center of 1 object to the center of the seocnd object
+All in all, in simplified terms, think of this code as a vector or line that connects the center of 1 object to the center of the second object
 , and then take the measurement of its length.
 
 This code is helpful because by adding together the measurements of the distances between meshes, the computer can understand the shape that is created.
@@ -47,7 +47,7 @@ that a human being would take to determine what shape is produced. Of course, a 
 is similar to which geometric shape. I started out picking one bond, and then counting the number of adjacent bonds. And then determine
 the shape based on the number of adjacent bonds counted. This process is even more inefficient than the one above and it is more difficult, so I went
 back to the drawing board. I realized that the distance between the adjacent bonds are static no matter the position and each shape have a different total sum.
-And so I wrote down, when a bond that is created or severed, sum the distance between every other bond. How I know whether or not a bond is created
+And so I wrote down, when a bond is created or severed, sum the distance between every other bond. How I know whether or not a bond is created
 is by storing it in an array. If the bond is severed, remove it from the array.
 
 # Skills
