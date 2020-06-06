@@ -37,7 +37,7 @@ For example:<br>
 
 ![Diagram](../photo/fp1.PNG)
 
-If this is a shape created by the user, then the total distance after looping through every bond is 48. No mattter which if the structure is upright,
+If this is a shape created by the user, then the total distance after looping through every bond is 48. No mattter if the structure is upright,
 sideways or horizontal, it will always be 48; it is like an id number.
 
 # Knowledge
@@ -58,6 +58,7 @@ taking me from learning about vectors to ray casting. I used logical reasoning f
  Flag variables were used to tell the program when is the right time to sum the distances. How I made the spheres disappear and reappear is to
  move them 1000 pixels away and return them back (I tried using instances from my previous blog entry but I can't seem to make them disappear individually, so I gave up and used the old fashion way).
  As a result, I have to time the mouse clicks to not have 1000 as a number showing up for the distances.
+
 [Previous](entry05.md) | [Next](entry07.md)
 
 [Home](../README.md)
