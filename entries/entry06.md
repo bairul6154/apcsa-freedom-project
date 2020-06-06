@@ -35,8 +35,8 @@ any angle or in other words, the same structure but positioned differently.
 
 For example:
 ![Diagram](../photo/fp1.PNG)
-If this is a shape created by the user, then the total distance after looping through every bond is 48. No mattter which angle the user creates the
-same shape, it will always be 48; it is like a id number.
+If this is a shape created by the user, then the total distance after looping through every bond is 48. No mattter which if the structure is upright,
+sideways or horizontal, it will always be 48; it is like an id number.
 
 # Knowledge
 
