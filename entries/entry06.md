@@ -33,8 +33,10 @@ for (var i=0; i<list.length; i++) {
 Although this code may not seem efficient, it is the only way (that I think of) to allow the program to determine the shape from
 any angle or in other words, the same structure but positioned differently.
 
-For example:
+For example:<br>
+
 ![Diagram](../photo/fp1.PNG)
+
 If this is a shape created by the user, then the total distance after looping through every bond is 48. No mattter which if the structure is upright,
 sideways or horizontal, it will always be 48; it is like an id number.
 
